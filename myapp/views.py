@@ -8,7 +8,7 @@ import os #Add this
 #     return HttpResponse('<h1>Hello World</h1>')
 
 def Home(request):
-    return render(request,'index.html ')
+    return render(request,'index.html')
 
 def upload(request):
     print(request)
