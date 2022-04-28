@@ -7,6 +7,9 @@ import os #Add this
 # def Home(request):
 #     return HttpResponse('<h1>Hello World</h1>')
 
+import urllib
+from yolov5.utils.plots import output_to_target
+
 def Home(request):
     return render(request,'index.html')
 
